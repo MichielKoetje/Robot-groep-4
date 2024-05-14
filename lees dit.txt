@@ -1,0 +1,4 @@
+(in ssh)
+
+Als laatste is het belangrijk dat wanneer je de net geschreven code die dan in de repository zit dan ook gepulled wordt. 
+Dit wordt simpelweg gedaan met behulp van git pull origin main (main kan ook master zijn).
