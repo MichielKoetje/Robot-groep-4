@@ -1,4 +1,28 @@
 (in ssh)
 
-Als laatste is het belangrijk dat wanneer je de net geschreven code die dan in de repository zit dan ook gepulled wordt. 
-Dit wordt simpelweg gedaan met behulp van git pull origin main (main kan ook master zijn).
+ssh groep4@141.252.29.40
+
+source /opt/ros/humble/setup.bash
+
+cd robot/Robot-groep-4
+git pull origin main 
+
+^ github dingen ophalen in robot directory.
+
+------------------------------------------
+Putty installeren voor grafische interface.
+
+
+hostname: 141.252.29.40
+port: 22
+SSH > X11 > enable X11 forwarding
+
+login: groep4 / groep4
+
+commands met grafische interface:
+---------------------------------
+- rqt
+- rqt_graph
+- rviz2
+
+
