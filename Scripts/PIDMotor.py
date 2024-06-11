@@ -53,9 +53,6 @@ try:
 #        print(control_B)
         serial_connection.set_speed(dynamixel_id_B, int(control_B>0)*0x400+abs(int(control_B)))
 
-        # Break condition to stop the loop
-        #if abs(current_angle - end_angle) < 1:  # Tolerance of 1 degree
-           # break
 
         time.sleep(0.1)  # Small delay to avoid excessive processing
 
